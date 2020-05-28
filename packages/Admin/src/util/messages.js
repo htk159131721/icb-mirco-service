@@ -1,0 +1,9 @@
+export const COMFIRM_DEL = "Are you sure to delete this task?",
+    SUCCESSFULLY = "Successfully",
+    ERROR = "Error Server. Please again!",
+    NOT_PERMISSON = "You don't have permission this action",
+    USERNAME_ALLREADY = "User name already exists",
+    TOKEN_EXPRITED="The token has expired ",
+    APPLY_CODE_FAILED = "Promotion code has been expired or used!",
+    APPLY_CODE_SUCCESS = "Promotion code apply success!",
+    EMAIL_ALLREADY = "Email already exists";

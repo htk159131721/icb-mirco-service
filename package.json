@@ -1,0 +1,35 @@
+{
+  "name": "icb",
+  "version": "1.0.1",
+  "description": "Icarebase",
+  "main": "index.js",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "ci": "git-cz",
+    "commit": "git-cz",
+    "serve:backend": "yarn workspace @icb/backend adonis serve --dev",
+    "serve:frontend": "yarn workspace @icb/frontend run start",
+    "serve:admin": "yarn workspace @icb/admin run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuoitresoft/ICB.git"
+  },
+  "keywords": [
+    "icb"
+  ],
+  "author": "huynhkha <huynhkha8295@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tuoitresoft/ICB/issues"
+  },
+  "homepage": "https://github.com/tuoitresoft/ICB#readme",
+  "devDependencies": {
+    "git-cz": "^4.3.1"
+  }
+}

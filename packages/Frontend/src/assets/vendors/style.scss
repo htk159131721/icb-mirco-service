@@ -1,0 +1,372 @@
+.st-align-center {
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.gx-inline-block{
+  display: inline-block !important;
+}
+
+.form-checkout {
+  .ant-form-item {
+    label {
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+  }
+}
+.st-background-header {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  table {
+    .ant-table-thead {
+      th {
+        background: #28aaeb;
+        color: #fff;
+      }
+    }
+  }
+}
+.gx-loader-view-mask {
+  background: #fff;
+  position: absolute;
+  width: 100%;
+  z-index: 9999;
+  top: 0;
+  margin: 0px -16px;
+  opacity: 0.8;
+}
+.custom-popover-scroll {
+  .gx-popover-scroll {
+    height: 230px !important;
+  }
+}
+.st-acion-tb {
+  a {
+    margin-right: 0.2rem;
+  }
+}
+.st-combo-icb {
+  .gx-package-header {
+    position: relative;
+  }
+  .st-off {
+    position: absolute;
+    display: inline-block;
+    color: #fff !important;
+  }
+}
+.gx-product-item {
+  transition: all 0.2s ease-in-out;
+  -webkit-transform: scale(0.95);
+  transform: scale(0.95);
+  &:hover {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.55);
+  }
+}
+.ant-list-item-meta-description {
+  color: #b5b2b2 !important;
+}
+.ant-list-item-meta-title {
+  a {
+    font-size: 25px;
+  }
+}
+.gx-profile-banner-avatar {
+  position: relative;
+  .mask-upload {
+    visibility: hidden;
+    position: absolute;
+    transition: all 400ms linear;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background: #00000036;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    i {
+      font-size: 30px;
+    }
+  }
+  &:hover .mask-upload {
+    visibility: visible;
+    transition: all 400ms linear;
+    opacity: 1;
+  }
+}
+.cursor-edit {
+  padding-left: 5px;
+  visibility: hidden;
+  transition: all 200ms ease-in;
+}
+.show-edit {
+  &:hover .cursor-edit {
+    visibility: visible;
+  }
+}
+.gx-main-content-wrapper {
+  padding: 0 !important;
+}
+.gx-del-cart {
+  background: #038fde;
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+  display: inline-block;
+  text-align: center;
+  padding: 6px;
+  display: inline-block;
+  margin-right: 5px;
+  transition: all 0.5s;
+  &:hover {
+    color: #038fde;
+    background: #fff;
+  }
+}
+.tb-item-cart {
+  background: #fff;
+  .ant-table-header-column {
+    font-size: 16px;
+  }
+  .ant-pagination {
+    display: none;
+  }
+}
+.text-align-left {
+  text-align: left;
+}
+.text-align-right {
+  text-align: right;
+}
+.info-total {
+  background: #fff;
+  border: solid 1px #ccc;
+  margin-bottom: 1rem;
+  .sub-total {
+    display: flex;
+    margin: 1.3rem 0;
+    .text-align-left {
+      flex-grow: 1;
+    }
+  }
+  .info-tt-header {
+    margin: 10px 10px;
+    padding-bottom: 0.7rem;
+    border-bottom: solid 1px #ccc;
+    text-align: center;
+    span {
+      padding: 0 10px;
+      font: {
+        size: 18px;
+      }
+    }
+  }
+  .content-total {
+    margin: 10px 10px;
+  }
+  .footer-total {
+    button {
+      width: 100%;
+    }
+    padding: 10px;
+  }
+}
+
+.st-return-shop {
+  display: block;
+  width: 100%;
+  margin-top: 2rem;
+  a {
+    background: #fff;
+    color: rgb(8, 178, 221);
+    border: solid 1px;
+    padding: 15px;
+  }
+}
+.padding-wrapper {
+  padding: 32px 32px 0;
+}
+.breadcrum-cart {
+  .ant-breadcrumb {
+    background: #fff;
+    padding: 20px 35px;
+  }
+}
+.footer-cart-small {
+  .sub-total {
+    margin: {
+      top: 1rem;
+      bottom: 1rem;
+    }
+  }
+  .view-cart {
+    text-align: center;
+    a {
+      background: cornflowerblue;
+      padding: 10px;
+      margin-bottom: 0.3rem;
+      display: inline-block;
+      color: #fff;
+    }
+  }
+}
+
+.mr-1 {
+  margin-right: 0.3rem;
+}
+.gx-layout-content {
+  background: #f9f9f7;
+}
+.gx-user-thumb .gx-badge {
+  font-size: 10px;
+}
+.nomargin-right {
+  margin-right: 0 !important;
+}
+.ant-layout-header {
+  .gx-d-block {
+    img {
+      width: 57%;
+    }
+  }
+}
+.gx-layout-sider-dark .gx-icon-btn:focus,
+.gx-layout-sider-dark .gx-icon-btn:hover {
+  background-color: #ffffff !important;
+}
+.header-search {
+  padding-bottom: 1rem;
+  border-bottom: solid 1px #ccc;
+  margin-bottom: 1rem;
+}
+.wrapper-signup {
+  max-width: 60%;
+}
+.form-cus {
+  .ant-form-item {
+    .ant-col {
+      width: 80%;
+      .ant-form-item-control {
+        padding: 0.2rem 0.3rem;
+      }
+    }
+  }
+}
+.input-100-percent {
+  .ant-form-item {
+    .ant-col {
+      width: 100%;
+      .ant-form-item-control {
+        padding: 0 0.3rem;
+      }
+    }
+  }
+}
+.form-cus {
+  .ant-form-item {
+    justify-content: center;
+    margin-bottom: 0;
+  }
+}
+.gx-width-75 {
+  max-width: 75px;
+}
+.forgot-pw {
+  .ant-form-item-control-wrapper {
+    width: 100%;
+  }
+}
+.gx-signup-container {
+  .gx-login-content {
+    .ant-input {
+      padding: 0 12px;
+    }
+  }
+}
+.form-info {
+  .ant-form-item-control-wrapper {
+    width: 90%;
+  }
+  .ant-row {
+    justify-content: center;
+  }
+}
+.btn-yellow{
+  background: #fa8c16 !important;
+  color: #fff !important;
+}
+.input-search .ant-col {
+  padding: 0 3px;
+  margin-bottom: .3rem!important;
+}
+.st-mb-form-item{
+  .ant-form-item{
+    margin-bottom: 8px;
+  }
+}
+.gx-app-logo-content-bg{
+  opacity: .5;
+  &::before{
+    background-color: transparent !important;
+  }
+}
+@media screen and (height: 568px) {
+  .g-recapchar {
+    transform: scale(0.77);
+    -webkit-transform: scale(0.77);
+    transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+  }
+}
+// responsive
+@media (max-width: 768px){
+  .st-capchar{
+    transform: scale(.9)
+  }
+}
+@media (width: 768px) {
+  .gx-signup-container {
+    .gx-login-content {
+      max-width: 80%;
+    }
+  }
+  .st-capchar{
+    transform: scale(.7)
+  }
+}
+@media (min-width: 768px) {
+  .st-pd-form {
+    .gx-login-content {
+      padding: 35px 60px 20px;
+    }
+  }
+}
+@media (max-width: 480px) {
+  .info-total {
+    margin-top: 1rem;
+  }
+}
+@media (min-width: 769px) {
+  .gx-signup-container {
+    .gx-login-content {
+      max-width: 60%;
+    }
+  }
+  .modal-add-package {
+    width: 75% !important;
+  }
+}
+@media (width: 1024px) and (min-height: 1366px){
+  .st-capchar{
+    transform: scale(.7)
+  }
+}
